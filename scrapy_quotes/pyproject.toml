@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "scrapy-quotes"
+version = "0.1.0"
+description = ""
+authors = ["Wargoth_ks <121107554+Wargoth-ks@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mongoengine = "^0.27.0"
+pymongo = "^4.5.0"
+scrapy = "^2.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
